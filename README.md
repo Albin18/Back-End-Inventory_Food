@@ -1,6 +1,8 @@
-Simple Application in Spring Boot
+## Simple Application in Spring Boot
 
 This simple application in Spring Boot comes with the following pre-configured dependencies for easy development:
+
+## Dependencys
 
 -spring-boot-starter-data-jpa: Provides a set of dependencies for working with Spring Data JPA, simplifying access and manipulation of data in the database.
 
@@ -16,7 +18,7 @@ This simple application in Spring Boot comes with the following pre-configured d
 
 These dependencies are configured in the pom.xml file and ready to be used in developing your application.
 
-Requirements
+## Requirements
 -Java Development Kit (JDK) installed on the system.
 
 -Installed Maven for dependency management and project build.
