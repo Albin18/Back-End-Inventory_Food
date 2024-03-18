@@ -1,18 +1,22 @@
 package com.test.backendapirest.model.entity;
 
+import jakarta.persistence.*;
+
 import java.io.Serializable;
 import java.util.Date;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
+
 
 @Entity
-@Table
+@Table(name="clientes")
 public class Cliente implements Serializable {
-
+@Id
+@GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private String nombre;
     private String apellido;
     private String email;
+    @Column(name = "create_at")
+    @Temporal(TemporalType.DATE)
     private Date createAt;
 
     public long getId() {
